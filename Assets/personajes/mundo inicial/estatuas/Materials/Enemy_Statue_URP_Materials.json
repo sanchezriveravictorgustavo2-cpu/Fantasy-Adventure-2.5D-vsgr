@@ -1,0 +1,146 @@
+{
+  "asset_name": "Enemy_Statue",
+  "world": "World_01",
+  "render_pipeline": "Unity 6 URP (Universal Render Pipeline)",
+  "shader_default": "Universal Render Pipeline/Lit",
+  "materials": [
+    {
+      "name": "MAT_Statue_AncientStone",
+      "shader": "Universal Render Pipeline/Lit",
+      "base_map": "Textures/Tex_Statue_AncientStone.png",
+      "base_color_srgb": "#484C59",
+      "smoothness": 0.24,
+      "metallic": 0.04,
+      "role": "Piedra gris oscura antigua con desgaste sutil (cuerpo de palitos, botas, empuñadura y base de fortaleza)."
+    },
+    {
+      "name": "MAT_Statue_BlackStone",
+      "shader": "Universal Render Pipeline/Lit",
+      "base_map": "Textures/Tex_Statue_BlackStone.png",
+      "base_color_srgb": "#20232C",
+      "smoothness": 0.48,
+      "metallic": 0.22,
+      "role": "Piedra negra de obsidiana/basalto (casco característico del Guerrero, coraza, hombreras, brazales, hoja monumental y almenas)."
+    },
+    {
+      "name": "MAT_Statue_VioletCrystal",
+      "shader": "Universal Render Pipeline/Lit",
+      "base_map": "Textures/Tex_Statue_VioletCrystal.png",
+      "base_color_srgb": "#9E3DFF",
+      "emission_color_srgb": "#A84CFF",
+      "emission_intensity": 1.45,
+      "smoothness": 0.92,
+      "metallic": 0.0,
+      "role": "Cristales violetas incrustados en la base, pecho, espalda y espada monumental."
+    },
+    {
+      "name": "MAT_Statue_RedAccent",
+      "shader": "Universal Render Pipeline/Lit",
+      "base_map": "Textures/Tex_Statue_RedAccent.png",
+      "base_color_srgb": "#D92B3B",
+      "emission_color_srgb": "#FF3848",
+      "emission_intensity": 0.95,
+      "smoothness": 0.72,
+      "metallic": 0.1,
+      "role": "Pequeños detalles rojizos (visor del casco, runas de la espada, cenefa del faldón y emblema de la fortaleza)."
+    }
+  ],
+  "geometry_stats": {
+    "mesh_objects_count": 8,
+    "total_verts": 3083,
+    "total_faces": 3452,
+    "total_tris": 5708,
+    "bounds_min": [
+      -1.2961,
+      -1.4613,
+      0.0
+    ],
+    "bounds_max": [
+      1.2683,
+      1.0902,
+      5.4459
+    ],
+    "dimensions_m": {
+      "width_x": 2.564,
+      "depth_y": 2.551,
+      "height_z": 5.446,
+      "warrior_figure_height_m": 4.52,
+      "pedestal_height_m": 0.9,
+      "warrior_unit_scale_ratio": 2.85
+    },
+    "parts": [
+      {
+        "name": "Statue_Pedestal_Stone",
+        "verts": 130,
+        "faces": 142,
+        "tris": 244,
+        "materials": [
+          "MAT_Statue_AncientStone"
+        ]
+      },
+      {
+        "name": "Statue_Pedestal_BlackTrim",
+        "verts": 408,
+        "faces": 442,
+        "tris": 748,
+        "materials": [
+          "MAT_Statue_BlackStone"
+        ]
+      },
+      {
+        "name": "Statue_Warrior_BodyStone",
+        "verts": 598,
+        "faces": 670,
+        "tris": 1140,
+        "materials": [
+          "MAT_Statue_AncientStone"
+        ]
+      },
+      {
+        "name": "Statue_Warrior_ArmorBlack",
+        "verts": 609,
+        "faces": 710,
+        "tris": 1104,
+        "materials": [
+          "MAT_Statue_BlackStone"
+        ]
+      },
+      {
+        "name": "Statue_Sword_StoneHilt",
+        "verts": 92,
+        "faces": 104,
+        "tris": 172,
+        "materials": [
+          "MAT_Statue_AncientStone"
+        ]
+      },
+      {
+        "name": "Statue_Sword_BlackBlade",
+        "verts": 130,
+        "faces": 142,
+        "tris": 248,
+        "materials": [
+          "MAT_Statue_BlackStone"
+        ]
+      },
+      {
+        "name": "Statue_Crystals_Violet",
+        "verts": 468,
+        "faces": 540,
+        "tris": 864,
+        "materials": [
+          "MAT_Statue_VioletCrystal"
+        ]
+      },
+      {
+        "name": "Statue_Accents_Red",
+        "verts": 648,
+        "faces": 702,
+        "tris": 1188,
+        "materials": [
+          "MAT_Statue_RedAccent"
+        ]
+      }
+    ]
+  }
+}
