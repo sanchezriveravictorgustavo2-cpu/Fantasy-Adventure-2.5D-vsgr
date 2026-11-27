@@ -1,0 +1,138 @@
+{
+  "asset_name": "Mineral_Ore",
+  "world": "World_01",
+  "render_pipeline": "Unity 6 URP (Universal Render Pipeline)",
+  "shader_default": "Universal Render Pipeline/Lit",
+  "uniform_initial_scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "extraction_states": [
+    {
+      "state": 1,
+      "scale_factor": 1.0,
+      "description": "100% de tamaño inicial"
+    },
+    {
+      "state": 2,
+      "scale_factor": 0.75,
+      "description": "75% de tamaño"
+    },
+    {
+      "state": 3,
+      "scale_factor": 0.5,
+      "description": "50% de tamaño"
+    },
+    {
+      "state": 4,
+      "scale_factor": 0.25,
+      "description": "25% de tamaño"
+    },
+    {
+      "state": 5,
+      "scale_factor": 0.0,
+      "description": "0%, desaparece"
+    }
+  ],
+  "materials": [
+    {
+      "name": "MAT_Mineral_RockBase",
+      "shader": "Universal Render Pipeline/Lit",
+      "base_map": "Textures/Tex_Mineral_RockBase.png",
+      "base_color_srgb": "#8195A7",
+      "smoothness": 0.26,
+      "metallic": 0.05
+    },
+    {
+      "name": "MAT_Mineral_CrystalTurquoise",
+      "shader": "Universal Render Pipeline/Lit",
+      "base_map": "Textures/Tex_Mineral_CrystalTurquoise.png",
+      "base_color_srgb": "#24E8F5",
+      "emission_color_srgb": "#1CE8F5",
+      "emission_intensity": 1.15,
+      "smoothness": 0.94,
+      "metallic": 0.0
+    },
+    {
+      "name": "MAT_Mineral_CrystalAquaBlue",
+      "shader": "Universal Render Pipeline/Lit",
+      "base_map": "Textures/Tex_Mineral_CrystalAquaBlue.png",
+      "base_color_srgb": "#1A8CFF",
+      "emission_color_srgb": "#1FA8FF",
+      "emission_intensity": 1.1,
+      "smoothness": 0.94,
+      "metallic": 0.0
+    },
+    {
+      "name": "MAT_Mineral_LuminousVeins",
+      "shader": "Universal Render Pipeline/Lit",
+      "base_map": "Textures/Tex_Mineral_LuminousVeins.png",
+      "base_color_srgb": "#48F6FF",
+      "emission_color_srgb": "#42F8FF",
+      "emission_intensity": 2.2,
+      "smoothness": 0.88,
+      "metallic": 0.0
+    }
+  ],
+  "geometry_stats": {
+    "mesh_objects_count": 4,
+    "total_verts": 567,
+    "total_faces": 649,
+    "total_tris": 1050,
+    "bounds_min": [
+      -0.7096,
+      -0.511,
+      0.0
+    ],
+    "bounds_max": [
+      0.6532,
+      0.5523,
+      1.2097
+    ],
+    "dimensions_m": {
+      "width_x": 1.363,
+      "depth_y": 1.063,
+      "height_z": 1.21
+    },
+    "ground_pivot_z_min": 0.0,
+    "parts": [
+      {
+        "name": "Mineral_Rock_Base",
+        "verts": 215,
+        "faces": 246,
+        "tris": 410,
+        "materials": [
+          "MAT_Mineral_RockBase"
+        ]
+      },
+      {
+        "name": "Mineral_Luminous_Veins",
+        "verts": 78,
+        "faces": 88,
+        "tris": 136,
+        "materials": [
+          "MAT_Mineral_LuminousVeins"
+        ]
+      },
+      {
+        "name": "Mineral_Crystals_Turquoise",
+        "verts": 152,
+        "faces": 175,
+        "tris": 280,
+        "materials": [
+          "MAT_Mineral_CrystalTurquoise"
+        ]
+      },
+      {
+        "name": "Mineral_Crystals_AquaBlue",
+        "verts": 122,
+        "faces": 140,
+        "tris": 224,
+        "materials": [
+          "MAT_Mineral_CrystalAquaBlue"
+        ]
+      }
+    ]
+  }
+}
