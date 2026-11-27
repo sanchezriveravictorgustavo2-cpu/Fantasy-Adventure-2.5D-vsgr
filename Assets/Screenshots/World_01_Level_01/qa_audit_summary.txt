@@ -1,0 +1,21 @@
+﻿Scene: Assets/Game/Scenes/World_01/World_01_Level_01.unity
+Detected FBX Yaw Rotation: 0 deg | Terrain Mesh Local Bounds: center=(50.50, 7.50, -1.88), size=(129.00, 30.00, 11.86)
+MeshFilters: 17 | Total Triangles (meshes): 43386 | Unique Materials Used: 36
+Missing Material Slots: 0 | Error Shader Slots: 0
+--- Key World Bounds ---
+  TER_MainGround_Continuous: Renderer.bounds min=(-14.00, -4.05, -7.50), max=(115.00, 7.81, 22.50)
+  TER_Rocks_Pavers_Arch: Renderer.bounds min=(-3.92, -0.79, -4.00), max=(92.58, 4.68, 8.35)
+  BRG_River_Main_01: Renderer.bounds min=(35.18, -1.10, -1.49), max=(41.82, 1.85, 1.49)
+  BRG_River_Lagoon_East: Renderer.bounds min=(44.68, -1.10, -1.49), max=(52.42, 1.92, 1.49)
+  BRG_Portal_Creek_02: Renderer.bounds min=(78.48, -0.60, -1.54), max=(84.32, 2.11, 1.54)
+  CRY_Secret_Shrine_Interactive: Renderer.bounds min=(62.72, 0.71, 1.07), max=(64.28, 3.42, 2.63)
+  DEC_Goal_Runic_Portal: Renderer.bounds min=(86.55, 0.90, 1.49), max=(89.44, 5.41, 2.19)
+  COL_Walkable_Continuous: Collider.bounds min=(-2.00, -0.35, -2.00), max=(94.00, 1.13, 2.00)
+  L01_Trees: Renderer.bounds min=(-13.16, -1.35, -5.92), max=(103.48, 11.72, 10.74)
+  BG_Mountains_Clouds_Island: Renderer.bounds min=(-11.00, -5.20, 21.35), max=(121.00, 6.97, 45.00)
+Captured: Assets/Screenshots/World_01_Level_01/01_Z1_Spawn.png
+Captured: Assets/Screenshots/World_01_Level_01/02_Z2_Combat1.png
+Captured: Assets/Screenshots/World_01_Level_01/03_Z3_River_Waterfall.png
+Captured: Assets/Screenshots/World_01_Level_01/04_Z4_Crystal_Shrine.png
+Captured: Assets/Screenshots/World_01_Level_01/05_Z5_Goal_Portal.png
+Captured: Assets/Screenshots/World_01_Level_01/06_Panorama_Full_Level.png

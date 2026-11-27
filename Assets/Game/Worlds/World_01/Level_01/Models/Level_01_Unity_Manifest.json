@@ -1,0 +1,3128 @@
+{
+  "project": "World_1_Bosque_Encantado_2.5D",
+  "level_id": "Level_01_Entrada_al_Bosque",
+  "version": "2.0.0",
+  "stage": "Stage_7_Unity_FBX_Exported",
+  "source_raw_blend": "c:\\Users\\Víctor Gustavo\\Downloads\\AI\\World_1\\Level_01\\Level_01_Raw_Modular.blend",
+  "optimized_blend": "c:\\Users\\Víctor Gustavo\\Downloads\\AI\\World_1\\Level_01\\Level_01_Entrada_al_Bosque.blend",
+  "fbx_exported": true,
+  "fbx_export_settings": {
+    "axis_forward": "-Z",
+    "axis_up": "Y",
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_ALL",
+    "use_space_transform": true,
+    "mesh_smooth_type": "FACE",
+    "use_tspace": true,
+    "use_custom_props": true,
+    "unity_model_importer_recommendations": {
+      "scale_factor": 1.0,
+      "convert_units": true,
+      "bake_axis_conversion": true,
+      "generate_colliders": false,
+      "normals": "Import",
+      "tangents": "Import",
+      "read_write_enabled_collider_only": true
+    }
+  },
+  "summary": {
+    "raw_objects": 331,
+    "raw_mesh_objects": 305,
+    "raw_tris": 42830,
+    "final_total_objects": 20,
+    "final_mesh_objects": 17,
+    "final_light_objects": 2,
+    "final_camera_objects": 1,
+    "final_total_tris": 43386,
+    "final_total_verts": 26286,
+    "final_total_polys": 32169,
+    "shared_materials": 36,
+    "duplicate_materials": 0,
+    "degenerate_faces": 0,
+    "collections_under_level_01": [
+      "Terrain",
+      "Platforms",
+      "Trees",
+      "Vegetation",
+      "Water",
+      "Decorations",
+      "Background",
+      "Lighting"
+    ]
+  },
+  "objects_mesh": [
+    {
+      "name": "TER_MainGround_Continuous",
+      "collection": "Terrain",
+      "type": "MESH",
+      "role": "static_consolidated",
+      "tris": 5976,
+      "verts": 3074,
+      "polys": 3616,
+      "materials_count": 9,
+      "materials": [
+        "MAT_Grass_Midtone",
+        "MAT_Moss_Forest",
+        "MAT_Stone_LimestonePath",
+        "MAT_Rock_WarmSlate",
+        "MAT_Rock_CliffShadow",
+        "MAT_Grass_Sunlit",
+        "MAT_Dirt_WarmPath",
+        "MAT_Dirt_SoilEdge",
+        "MAT_Grass_Shadow"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "pivot_blender_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pivot_unity_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_bbox_blender": {
+        "x": [
+          -14.0,
+          115.0
+        ],
+        "y": [
+          -7.5,
+          22.5
+        ],
+        "z": [
+          -4.05,
+          7.809
+        ]
+      },
+      "hide_render": false,
+      "display_type": "TEXTURED"
+    },
+    {
+      "name": "TER_Rocks_Pavers_Arch",
+      "collection": "Terrain",
+      "type": "MESH",
+      "role": "static_consolidated",
+      "tris": 2152,
+      "verts": 1272,
+      "polys": 1802,
+      "materials_count": 7,
+      "materials": [
+        "MAT_Rock_WarmSlate",
+        "MAT_Moss_Forest",
+        "MAT_Bark_Warm",
+        "MAT_Flower_Pearl",
+        "MAT_Rock_CliffShadow",
+        "MAT_Stone_LimestonePath",
+        "MAT_Stone_RunicPearl"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "pivot_blender_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pivot_unity_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_bbox_blender": {
+        "x": [
+          -3.921,
+          92.583
+        ],
+        "y": [
+          -3.996,
+          8.352
+        ],
+        "z": [
+          -0.795,
+          4.682
+        ]
+      },
+      "hide_render": false,
+      "display_type": "TEXTURED"
+    },
+    {
+      "name": "BRG_Portal_Creek_02",
+      "collection": "Platforms",
+      "type": "MESH",
+      "role": "interactive",
+      "tris": 608,
+      "verts": 380,
+      "polys": 304,
+      "materials_count": 2,
+      "materials": [
+        "MAT_Wood_BridgeHoney",
+        "MAT_Wood_BridgeBeam"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "pivot_blender_xyz": [
+        81.4,
+        0.0,
+        0.75
+      ],
+      "pivot_unity_xyz": [
+        81.4,
+        0.75,
+        0.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_bbox_blender": {
+        "x": [
+          78.481,
+          84.319
+        ],
+        "y": [
+          -1.54,
+          1.54
+        ],
+        "z": [
+          -0.6,
+          2.113
+        ]
+      },
+      "hide_render": false,
+      "display_type": "TEXTURED"
+    },
+    {
+      "name": "BRG_River_Lagoon_East",
+      "collection": "Platforms",
+      "type": "MESH",
+      "role": "interactive",
+      "tris": 644,
+      "verts": 404,
+      "polys": 322,
+      "materials_count": 2,
+      "materials": [
+        "MAT_Wood_BridgeHoney",
+        "MAT_Wood_BridgeBeam"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "pivot_blender_xyz": [
+        48.55,
+        0.0,
+        0.5
+      ],
+      "pivot_unity_xyz": [
+        48.55,
+        0.5,
+        0.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_bbox_blender": {
+        "x": [
+          44.684,
+          52.416
+        ],
+        "y": [
+          -1.49,
+          1.49
+        ],
+        "z": [
+          -1.1,
+          1.917
+        ]
+      },
+      "hide_render": false,
+      "display_type": "TEXTURED"
+    },
+    {
+      "name": "BRG_River_Main_01",
+      "collection": "Platforms",
+      "type": "MESH",
+      "role": "interactive",
+      "tris": 632,
+      "verts": 396,
+      "polys": 316,
+      "materials_count": 2,
+      "materials": [
+        "MAT_Wood_BridgeHoney",
+        "MAT_Wood_BridgeBeam"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "pivot_blender_xyz": [
+        38.5,
+        0.0,
+        0.45
+      ],
+      "pivot_unity_xyz": [
+        38.5,
+        0.45,
+        0.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_bbox_blender": {
+        "x": [
+          35.182,
+          41.818
+        ],
+        "y": [
+          -1.49,
+          1.49
+        ],
+        "z": [
+          -1.1,
+          1.849
+        ]
+      },
+      "hide_render": false,
+      "display_type": "TEXTURED"
+    },
+    {
+      "name": "COL_Walkable_Continuous",
+      "collection": "Platforms",
+      "type": "MESH",
+      "role": "collider",
+      "tris": 556,
+      "verts": 280,
+      "polys": 278,
+      "materials_count": 1,
+      "materials": [
+        "MAT_Stone_LimestonePath"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "pivot_blender_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pivot_unity_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_bbox_blender": {
+        "x": [
+          -2.0,
+          94.0
+        ],
+        "y": [
+          -2.0,
+          2.0
+        ],
+        "z": [
+          -0.35,
+          1.13
+        ]
+      },
+      "hide_render": true,
+      "display_type": "WIRE"
+    },
+    {
+      "name": "TR_Forest_Trees",
+      "collection": "Trees",
+      "type": "MESH",
+      "role": "static_consolidated",
+      "tris": 11172,
+      "verts": 6722,
+      "polys": 8284,
+      "materials_count": 7,
+      "materials": [
+        "MAT_Bark_Warm",
+        "MAT_Moss_Forest",
+        "MAT_Foliage_MintLime",
+        "MAT_Foliage_Emerald",
+        "MAT_Foliage_TealForest",
+        "MAT_Flower_Pearl",
+        "MAT_Bark_SilverBirch"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "pivot_blender_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pivot_unity_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_bbox_blender": {
+        "x": [
+          -13.162,
+          103.48
+        ],
+        "y": [
+          -5.917,
+          10.739
+        ],
+        "z": [
+          -1.347,
+          11.724
+        ]
+      },
+      "hide_render": false,
+      "display_type": "TEXTURED"
+    },
+    {
+      "name": "VEG_Foreground_LowFlora",
+      "collection": "Vegetation",
+      "type": "MESH",
+      "role": "static_consolidated",
+      "tris": 3424,
+      "verts": 2324,
+      "polys": 2728,
+      "materials_count": 10,
+      "materials": [
+        "MAT_Grass_Shadow",
+        "MAT_Moss_Forest",
+        "MAT_Foliage_Bush",
+        "MAT_Flower_Pearl",
+        "MAT_Flower_Gold",
+        "MAT_Flower_Sky",
+        "MAT_Bark_Warm",
+        "MAT_Flower_Coral",
+        "MAT_Mushroom_Cap",
+        "MAT_Mushroom_Stem"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "pivot_blender_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pivot_unity_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_bbox_blender": {
+        "x": [
+          -7.075,
+          96.215
+        ],
+        "y": [
+          -5.289,
+          -2.701
+        ],
+        "z": [
+          -1.117,
+          0.946
+        ]
+      },
+      "hide_render": false,
+      "display_type": "TEXTURED"
+    },
+    {
+      "name": "VEG_Trail_Flowers_Mushrooms",
+      "collection": "Vegetation",
+      "type": "MESH",
+      "role": "static_consolidated",
+      "tris": 4564,
+      "verts": 3130,
+      "polys": 3758,
+      "materials_count": 10,
+      "materials": [
+        "MAT_Foliage_Bush",
+        "MAT_Flower_Gold",
+        "MAT_Flower_Pearl",
+        "MAT_Flower_Coral",
+        "MAT_Flower_Sky",
+        "MAT_Mushroom_Cap",
+        "MAT_Mushroom_Stem",
+        "MAT_Moss_Forest",
+        "MAT_Grass_Sunlit",
+        "MAT_Grass_Shadow"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "pivot_blender_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pivot_unity_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_bbox_blender": {
+        "x": [
+          -0.008,
+          97.378
+        ],
+        "y": [
+          -2.043,
+          2.829
+        ],
+        "z": [
+          -0.086,
+          1.616
+        ]
+      },
+      "hide_render": false,
+      "display_type": "TEXTURED"
+    },
+    {
+      "name": "WAT_Cascades_And_Foam",
+      "collection": "Water",
+      "type": "MESH",
+      "role": "static_consolidated",
+      "tris": 2168,
+      "verts": 1572,
+      "polys": 1508,
+      "materials_count": 2,
+      "materials": [
+        "MAT_Water_Waterfall",
+        "MAT_Water_Foam"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "pivot_blender_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pivot_unity_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_bbox_blender": {
+        "x": [
+          35.435,
+          105.749
+        ],
+        "y": [
+          -5.6,
+          8.988
+        ],
+        "z": [
+          -0.182,
+          6.494
+        ]
+      },
+      "hide_render": false,
+      "display_type": "TEXTURED"
+    },
+    {
+      "name": "WAT_Crystal_Rivers_And_Pools",
+      "collection": "Water",
+      "type": "MESH",
+      "role": "static_consolidated",
+      "tris": 988,
+      "verts": 623,
+      "polys": 968,
+      "materials_count": 2,
+      "materials": [
+        "MAT_Water_RiverCrystal",
+        "MAT_Water_Foam"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "pivot_blender_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pivot_unity_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_bbox_blender": {
+        "x": [
+          35.3,
+          114.0
+        ],
+        "y": [
+          -7.5,
+          22.0
+        ],
+        "z": [
+          -0.217,
+          0.358
+        ]
+      },
+      "hide_render": false,
+      "display_type": "TEXTURED"
+    },
+    {
+      "name": "CRY_Ambient_Clusters",
+      "collection": "Decorations",
+      "type": "MESH",
+      "role": "static_consolidated",
+      "tris": 810,
+      "verts": 495,
+      "polys": 461,
+      "materials_count": 5,
+      "materials": [
+        "MAT_Crystal_AeroBlue",
+        "MAT_Crystal_AeroAqua",
+        "MAT_Stone_RunicPearl",
+        "MAT_Magic_RuneGlow",
+        "MAT_Rock_WarmSlate"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "pivot_blender_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pivot_unity_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_bbox_blender": {
+        "x": [
+          14.246,
+          89.64
+        ],
+        "y": [
+          1.069,
+          7.073
+        ],
+        "z": [
+          0.282,
+          4.842
+        ]
+      },
+      "hide_render": false,
+      "display_type": "TEXTURED"
+    },
+    {
+      "name": "CRY_Secret_Shrine_Interactive",
+      "collection": "Decorations",
+      "type": "MESH",
+      "role": "interactive",
+      "tris": 194,
+      "verts": 113,
+      "polys": 105,
+      "materials_count": 4,
+      "materials": [
+        "MAT_Crystal_AeroBlue",
+        "MAT_Crystal_AeroAqua",
+        "MAT_Stone_RunicPearl",
+        "MAT_Magic_RuneGlow"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "pivot_blender_xyz": [
+        63.5,
+        1.85,
+        0.8
+      ],
+      "pivot_unity_xyz": [
+        63.5,
+        0.8,
+        1.85
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_bbox_blender": {
+        "x": [
+          62.723,
+          64.277
+        ],
+        "y": [
+          1.073,
+          2.627
+        ],
+        "z": [
+          0.713,
+          3.424
+        ]
+      },
+      "hide_render": false,
+      "display_type": "TEXTURED"
+    },
+    {
+      "name": "DEC_Goal_Runic_Portal",
+      "collection": "Decorations",
+      "type": "MESH",
+      "role": "interactive",
+      "tris": 816,
+      "verts": 452,
+      "polys": 452,
+      "materials_count": 5,
+      "materials": [
+        "MAT_Stone_RunicPearl",
+        "MAT_Magic_RuneGlow",
+        "MAT_Crystal_AeroBlue",
+        "MAT_Crystal_AeroAqua",
+        "MAT_Moss_Forest"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "pivot_blender_xyz": [
+        88.0,
+        1.85,
+        1.05
+      ],
+      "pivot_unity_xyz": [
+        88.0,
+        1.05,
+        1.85
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_bbox_blender": {
+        "x": [
+          86.548,
+          89.439
+        ],
+        "y": [
+          1.486,
+          2.19
+        ],
+        "z": [
+          0.9,
+          5.41
+        ]
+      },
+      "hide_render": false,
+      "display_type": "TEXTURED"
+    },
+    {
+      "name": "DEC_Props_Checkpoints_Lilypads",
+      "collection": "Decorations",
+      "type": "MESH",
+      "role": "static_consolidated",
+      "tris": 2468,
+      "verts": 1554,
+      "polys": 1856,
+      "materials_count": 11,
+      "materials": [
+        "MAT_Magic_Firefly",
+        "MAT_Foliage_Lilypad",
+        "MAT_Flower_Pearl",
+        "MAT_Flower_Gold",
+        "MAT_Flower_Coral",
+        "MAT_Stone_RunicPearl",
+        "MAT_Magic_RuneGlow",
+        "MAT_Crystal_AeroAqua",
+        "MAT_Moss_Forest",
+        "MAT_Wood_BridgeHoney",
+        "MAT_Wood_BridgeBeam"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "pivot_blender_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pivot_unity_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_bbox_blender": {
+        "x": [
+          3.714,
+          89.953
+        ],
+        "y": [
+          -5.017,
+          5.766
+        ],
+        "z": [
+          -0.15,
+          3.846
+        ]
+      },
+      "hide_render": false,
+      "display_type": "TEXTURED"
+    },
+    {
+      "name": "BG_Hills_And_ForestBelt",
+      "collection": "Background",
+      "type": "MESH",
+      "role": "static_consolidated",
+      "tris": 3496,
+      "verts": 1980,
+      "polys": 3056,
+      "materials_count": 4,
+      "materials": [
+        "MAT_BG_Hill_Lush",
+        "MAT_Bark_Warm",
+        "MAT_Foliage_TealForest",
+        "MAT_Foliage_Emerald"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "pivot_blender_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pivot_unity_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_bbox_blender": {
+        "x": [
+          -14.0,
+          107.0
+        ],
+        "y": [
+          12.5,
+          26.5
+        ],
+        "z": [
+          -3.8,
+          9.568
+        ]
+      },
+      "hide_render": false,
+      "display_type": "TEXTURED"
+    },
+    {
+      "name": "BG_Mountains_Clouds_Island",
+      "collection": "Background",
+      "type": "MESH",
+      "role": "static_consolidated",
+      "tris": 2718,
+      "verts": 1515,
+      "polys": 2355,
+      "materials_count": 10,
+      "materials": [
+        "MAT_BG_Cloud_Pearl",
+        "MAT_BG_Mountain_Mist",
+        "MAT_BG_Hill_Lush",
+        "MAT_Rock_CliffShadow",
+        "MAT_Water_Waterfall",
+        "MAT_Water_Foam",
+        "MAT_BG_Mountain_FarPeak",
+        "MAT_Crystal_AeroAqua",
+        "MAT_Foliage_TealForest",
+        "MAT_Bark_Warm"
+      ],
+      "uv_layers": [
+        "UVMap"
+      ],
+      "pivot_blender_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pivot_unity_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "world_bbox_blender": {
+        "x": [
+          -11.0,
+          121.0
+        ],
+        "y": [
+          21.35,
+          45.0
+        ],
+        "z": [
+          -5.2,
+          6.97
+        ]
+      },
+      "hide_render": false,
+      "display_type": "TEXTURED"
+    }
+  ],
+  "objects_lighting_and_camera": [
+    {
+      "name": "LGT_Sun_Key",
+      "collection": "Lighting",
+      "type": "LIGHT",
+      "light_type": "SUN",
+      "color_hex": "#FFF6E0",
+      "blender_energy": 3.2,
+      "unity_urp_intensity": 1.35,
+      "cast_shadows": true,
+      "blender_rotation_deg": [
+        46.0,
+        -18.0,
+        -26.0
+      ]
+    },
+    {
+      "name": "LGT_Fill_AquaSky",
+      "collection": "Lighting",
+      "type": "LIGHT",
+      "light_type": "SUN",
+      "color_hex": "#B2F2FA",
+      "blender_energy": 1.15,
+      "unity_urp_intensity": 0.45,
+      "cast_shadows": false,
+      "blender_rotation_deg": [
+        62.0,
+        16.0,
+        36.0
+      ]
+    },
+    {
+      "name": "CAM_Unity_25D_Main",
+      "collection": "Lighting",
+      "type": "CAMERA",
+      "camera_type": "ORTHO",
+      "ortho_scale_horizontal_m": 18.0,
+      "unity_ortho_size_half_height_m": 5.0625,
+      "downward_tilt_deg": 6.5,
+      "blender_rotation_deg": [
+        83.5,
+        0.0,
+        0.0
+      ],
+      "unity_rotation_deg": [
+        6.5,
+        0.0,
+        0.0
+      ],
+      "blender_location": [
+        40.0,
+        -28.0,
+        6.8402
+      ],
+      "unity_location": [
+        40.0,
+        6.8402,
+        -28.0
+      ]
+    }
+  ],
+  "collider_spec": {
+    "target_name": "COL_Walkable_Continuous",
+    "stations": 70,
+    "tris": 556,
+    "verts": 280,
+    "polys": 278,
+    "x_range": [
+      -2.0,
+      94.0
+    ],
+    "y_range": [
+      -2.0,
+      2.0
+    ],
+    "z_walkable_range": [
+      0.0,
+      1.13
+    ],
+    "slab_thickness_m": 0.35,
+    "max_slope_deg": 11.28,
+    "max_slope_at_x": 44.58,
+    "hide_render": true,
+    "display_type": "WIRE"
+  },
+  "consolidation_mapping": [
+    {
+      "target_name": "TER_MainGround_Continuous",
+      "source_count": 31,
+      "source_names": [
+        "BG_MG_CliffWall_Z4_Secret",
+        "TER_Bookend_East",
+        "TER_Bookend_West",
+        "TER_FG_Shelf_East",
+        "TER_FG_Shelf_Mid",
+        "TER_FG_Shelf_West",
+        "TER_Level2_Valley_Bed",
+        "TER_MG_Creek_Cascade_Ledge",
+        "TER_MG_Skirt_East",
+        "TER_MG_Skirt_Mid",
+        "TER_MG_Skirt_West",
+        "TER_MG_Waterfall_Cliff",
+        "TER_Z1_Clearing",
+        "TER_Z1_Knoll_Crest",
+        "TER_Z1_Knoll_Rise",
+        "TER_Z1_Knoll_Slope_East",
+        "TER_Z2_Combat_Clearing",
+        "TER_Z2_Ramp_Down",
+        "TER_Z2_River_Approach",
+        "TER_Z3_East_Bank",
+        "TER_Z3_River_Islet",
+        "TER_Z3_Riverbed_East",
+        "TER_Z3_Riverbed_IsletBypass",
+        "TER_Z3_Riverbed_West",
+        "TER_Z4_Combat_Clearing_02",
+        "TER_Z4_Crystal_Grove_East",
+        "TER_Z4_Crystal_Grove_West",
+        "TER_Z4_Crystal_Shrine_Alcove",
+        "TER_Z5_Creek_Bed",
+        "TER_Z5_Goal_Sanctuary",
+        "TER_Z5_Sanctuary_Entry"
+      ],
+      "tris": 5976,
+      "verts": 3074,
+      "polys": 3616,
+      "materials": [
+        "MAT_Grass_Midtone",
+        "MAT_Moss_Forest",
+        "MAT_Stone_LimestonePath",
+        "MAT_Rock_WarmSlate",
+        "MAT_Rock_CliffShadow",
+        "MAT_Grass_Sunlit",
+        "MAT_Dirt_WarmPath",
+        "MAT_Dirt_SoilEdge",
+        "MAT_Grass_Shadow"
+      ],
+      "skipped_degen_faces": 0,
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target_name": "TER_Rocks_Pavers_Arch",
+      "source_count": 28,
+      "source_names": [
+        "DEC_Entry_Forest_Arch",
+        "TER_Boulder_WestEntry_01",
+        "TER_Boulder_WestEntry_02",
+        "TER_Boulder_Z1_KnollOutcrop_E",
+        "TER_Boulder_Z1_KnollOutcrop_W",
+        "TER_Boulder_Z1_PathFG_04",
+        "TER_Boulder_Z1_Path_03",
+        "TER_Boulder_Z1_Slope_05",
+        "TER_Boulder_Z2_Ramp_07",
+        "TER_Boulder_Z3_EastBankFG_16",
+        "TER_Boulder_Z3_EastBank_15",
+        "TER_Boulder_Z3_IsletEdge_14",
+        "TER_Boulder_Z3_PlungeEast_11",
+        "TER_Boulder_Z3_PlungeWest_10",
+        "TER_Boulder_Z3_WaterfallRim_12",
+        "TER_Boulder_Z3_WaterfallRim_13",
+        "TER_Boulder_Z3_WestBankFG_09",
+        "TER_Boulder_Z3_WestBank_08",
+        "TER_Boulder_Z4_GroveEast_19",
+        "TER_Boulder_Z4_GroveFG_18",
+        "TER_Boulder_Z4_GroveWest_17",
+        "TER_Boulder_Z5_CreekEast_23",
+        "TER_Boulder_Z5_CreekSpringE_22",
+        "TER_Boulder_Z5_CreekSpringW_21",
+        "TER_Boulder_Z5_CreekWest_20",
+        "TER_Boulder_Z5_Sanctuary_24",
+        "TER_Path_Flagstones",
+        "TER_Z4_Shrine_Alcove_Floor"
+      ],
+      "tris": 2152,
+      "verts": 1272,
+      "polys": 1802,
+      "materials": [
+        "MAT_Rock_WarmSlate",
+        "MAT_Moss_Forest",
+        "MAT_Bark_Warm",
+        "MAT_Flower_Pearl",
+        "MAT_Rock_CliffShadow",
+        "MAT_Stone_LimestonePath",
+        "MAT_Stone_RunicPearl"
+      ],
+      "skipped_degen_faces": 0,
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target_name": "TR_Forest_Trees",
+      "source_count": 45,
+      "source_names": [
+        "TR_FG_Bookend_East_04",
+        "TR_FG_Bookend_East_05",
+        "TR_FG_Bookend_West_01",
+        "TR_FG_Bookend_West_02",
+        "TR_FG_Bookend_West_03",
+        "TR_MG_Z1_Entry_01",
+        "TR_MG_Z1_Entry_02",
+        "TR_MG_Z1_Entry_03",
+        "TR_MG_Z1_Entry_04",
+        "TR_MG_Z1_Entry_05",
+        "TR_MG_Z1_Entry_06",
+        "TR_MG_Z1_Entry_07",
+        "TR_MG_Z1_Entry_08",
+        "TR_MG_Z1_Entry_09",
+        "TR_MG_Z1_Entry_10",
+        "TR_MG_Z1_Entry_11",
+        "TR_MG_Z2_CombatBackdrop_12",
+        "TR_MG_Z2_CombatBackdrop_13",
+        "TR_MG_Z2_CombatBackdrop_14",
+        "TR_MG_Z2_CombatBackdrop_15",
+        "TR_MG_Z2_CombatBackdrop_16",
+        "TR_MG_Z3_WaterfallFlanks_17",
+        "TR_MG_Z3_WaterfallFlanks_18",
+        "TR_MG_Z3_WaterfallFlanks_19",
+        "TR_MG_Z3_WaterfallFlanks_20",
+        "TR_MG_Z3_WaterfallFlanks_21",
+        "TR_MG_Z3_WaterfallFlanks_22",
+        "TR_MG_Z4_CliffTopGrove_23",
+        "TR_MG_Z4_CliffTopGrove_24",
+        "TR_MG_Z4_CliffTopGrove_25",
+        "TR_MG_Z4_CliffTopGrove_26",
+        "TR_MG_Z4_CliffTopGrove_27",
+        "TR_MG_Z4_CliffTopGrove_28",
+        "TR_MG_Z4_CliffTopGrove_29",
+        "TR_MG_Z4_Combat2Backdrop_30",
+        "TR_MG_Z4_Combat2Backdrop_31",
+        "TR_MG_Z4_Combat2Backdrop_32",
+        "TR_MG_Z4_Combat2Backdrop_33",
+        "TR_MG_Z5_PortalFraming_34",
+        "TR_MG_Z5_PortalFraming_35",
+        "TR_MG_Z5_PortalFraming_36",
+        "TR_MG_Z5_PortalFraming_37",
+        "TR_MG_Z5_PortalFraming_38",
+        "TR_MG_Z5_PortalFraming_39",
+        "TR_MG_Z5_PortalFraming_40"
+      ],
+      "tris": 11172,
+      "verts": 6722,
+      "polys": 8284,
+      "materials": [
+        "MAT_Bark_Warm",
+        "MAT_Moss_Forest",
+        "MAT_Foliage_MintLime",
+        "MAT_Foliage_Emerald",
+        "MAT_Foliage_TealForest",
+        "MAT_Flower_Pearl",
+        "MAT_Bark_SilverBirch"
+      ],
+      "skipped_degen_faces": 0,
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target_name": "VEG_Foreground_LowFlora",
+      "source_count": 48,
+      "source_names": [
+        "VEG_FG_Combat1_UltraLow_15",
+        "VEG_FG_Combat1_UltraLow_16",
+        "VEG_FG_Combat1_UltraLow_17",
+        "VEG_FG_Combat1_UltraLow_18",
+        "VEG_FG_Combat1_UltraLow_19",
+        "VEG_FG_Combat1_UltraLow_20",
+        "VEG_FG_Combat2_UltraLow_39",
+        "VEG_FG_Combat2_UltraLow_40",
+        "VEG_FG_Combat2_UltraLow_41",
+        "VEG_FG_Combat2_UltraLow_42",
+        "VEG_FG_RiverReeds_Z3_21",
+        "VEG_FG_RiverReeds_Z3_22",
+        "VEG_FG_RiverReeds_Z3_23",
+        "VEG_FG_RiverReeds_Z3_24",
+        "VEG_FG_RiverReeds_Z3_25",
+        "VEG_FG_RiverReeds_Z3_26",
+        "VEG_FG_RiverReeds_Z3_27",
+        "VEG_FG_RiverReeds_Z3_28",
+        "VEG_FG_RiverReeds_Z3_29",
+        "VEG_FG_RiverReeds_Z3_30",
+        "VEG_FG_West_Z1_01",
+        "VEG_FG_West_Z1_02",
+        "VEG_FG_West_Z1_03",
+        "VEG_FG_West_Z1_04",
+        "VEG_FG_West_Z1_05",
+        "VEG_FG_West_Z1_06",
+        "VEG_FG_West_Z1_07",
+        "VEG_FG_West_Z1_08",
+        "VEG_FG_West_Z1_09",
+        "VEG_FG_West_Z1_10",
+        "VEG_FG_West_Z1_11",
+        "VEG_FG_West_Z1_12",
+        "VEG_FG_West_Z1_13",
+        "VEG_FG_West_Z1_14",
+        "VEG_FG_Z4_Gully_31",
+        "VEG_FG_Z4_Gully_32",
+        "VEG_FG_Z4_Gully_33",
+        "VEG_FG_Z4_Gully_34",
+        "VEG_FG_Z4_Gully_35",
+        "VEG_FG_Z4_Gully_36",
+        "VEG_FG_Z4_Gully_37",
+        "VEG_FG_Z4_Gully_38",
+        "VEG_FG_Z5_Sanctuary_43",
+        "VEG_FG_Z5_Sanctuary_44",
+        "VEG_FG_Z5_Sanctuary_45",
+        "VEG_FG_Z5_Sanctuary_46",
+        "VEG_FG_Z5_Sanctuary_47",
+        "VEG_FG_Z5_Sanctuary_48"
+      ],
+      "tris": 3424,
+      "verts": 2324,
+      "polys": 2728,
+      "materials": [
+        "MAT_Grass_Shadow",
+        "MAT_Moss_Forest",
+        "MAT_Foliage_Bush",
+        "MAT_Flower_Pearl",
+        "MAT_Flower_Gold",
+        "MAT_Flower_Sky",
+        "MAT_Bark_Warm",
+        "MAT_Flower_Coral",
+        "MAT_Mushroom_Cap",
+        "MAT_Mushroom_Stem"
+      ],
+      "skipped_degen_faces": 0,
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target_name": "VEG_Trail_Flowers_Mushrooms",
+      "source_count": 62,
+      "source_names": [
+        "DEC_Flowers_Z1_Clearing_01_Gold",
+        "DEC_Flowers_Z1_Clearing_01b_Coral",
+        "DEC_Flowers_Z1_Clearing_02_Coral",
+        "DEC_Flowers_Z1_Clearing_03_Pearl",
+        "DEC_Flowers_Z1_Clearing_04_Gold",
+        "DEC_Flowers_Z2_Edges_01_Gold",
+        "DEC_Flowers_Z2_Edges_01b_Sky",
+        "DEC_Flowers_Z2_Edges_02_Sky",
+        "DEC_Flowers_Z2_Edges_03_Pearl",
+        "DEC_Flowers_Z3_Islet_01_Pearl",
+        "DEC_Flowers_Z3_Islet_01b_Sky",
+        "DEC_Flowers_Z3_Islet_02_Sky",
+        "DEC_Flowers_Z3_Islet_02b_Coral",
+        "DEC_Flowers_Z4_SecretShrine_01_Sky",
+        "DEC_Flowers_Z4_SecretShrine_01b_Pearl",
+        "DEC_Flowers_Z4_SecretShrine_02_Pearl",
+        "DEC_Flowers_Z4_SecretShrine_02b_Sky",
+        "DEC_Flowers_Z5_Sanctuary_01_Sky",
+        "DEC_Flowers_Z5_Sanctuary_01b_Pearl",
+        "DEC_Flowers_Z5_Sanctuary_02_Pearl",
+        "DEC_Flowers_Z5_Sanctuary_03_Gold",
+        "DEC_Mushrooms_Z1_Hollow_01",
+        "DEC_Mushrooms_Z1_Hollow_02",
+        "DEC_Mushrooms_Z4_LowerGully_01",
+        "DEC_Mushrooms_Z4_LowerGully_02",
+        "DEC_Mushrooms_Z4_LowerGully_03",
+        "VEG_Path_01",
+        "VEG_Path_02",
+        "VEG_Path_03",
+        "VEG_Path_04",
+        "VEG_Path_05",
+        "VEG_Path_06",
+        "VEG_Path_07",
+        "VEG_Path_08",
+        "VEG_Path_09",
+        "VEG_Path_10",
+        "VEG_Path_11",
+        "VEG_Path_12",
+        "VEG_Path_13",
+        "VEG_Path_14",
+        "VEG_Path_15",
+        "VEG_Path_16",
+        "VEG_Path_17",
+        "VEG_Path_18",
+        "VEG_Path_19",
+        "VEG_Path_20",
+        "VEG_Path_21",
+        "VEG_Path_22",
+        "VEG_Path_23",
+        "VEG_Path_24",
+        "VEG_Path_25",
+        "VEG_Path_26",
+        "VEG_Path_27",
+        "VEG_Path_28",
+        "VEG_Path_29",
+        "VEG_Path_30",
+        "VEG_Path_31",
+        "VEG_Path_32",
+        "VEG_Path_33",
+        "VEG_Path_34",
+        "VEG_Path_35",
+        "VEG_Path_36"
+      ],
+      "tris": 4564,
+      "verts": 3130,
+      "polys": 3758,
+      "materials": [
+        "MAT_Foliage_Bush",
+        "MAT_Flower_Gold",
+        "MAT_Flower_Pearl",
+        "MAT_Flower_Coral",
+        "MAT_Flower_Sky",
+        "MAT_Mushroom_Cap",
+        "MAT_Mushroom_Stem",
+        "MAT_Moss_Forest",
+        "MAT_Grass_Sunlit",
+        "MAT_Grass_Shadow"
+      ],
+      "skipped_degen_faces": 0,
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target_name": "WAT_Crystal_Rivers_And_Pools",
+      "source_count": 7,
+      "source_names": [
+        "WAT_Creek_East",
+        "WAT_Level2_River_Preview",
+        "WAT_River_Channel_West",
+        "WAT_River_Islet_Bypass_North",
+        "WAT_River_Islet_Bypass_South",
+        "WAT_River_Lagoon_East",
+        "WAT_Waterfall_PlungePool"
+      ],
+      "tris": 988,
+      "verts": 623,
+      "polys": 968,
+      "materials": [
+        "MAT_Water_RiverCrystal",
+        "MAT_Water_Foam"
+      ],
+      "skipped_degen_faces": 0,
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target_name": "WAT_Cascades_And_Foam",
+      "source_count": 11,
+      "source_names": [
+        "WAT_Creek_MiniCascade",
+        "WAT_Foam_Bridge1_Pilings",
+        "WAT_Foam_Bridge2_Lagoon_Pilings",
+        "WAT_Foam_Bridge3_Pilings",
+        "WAT_Foam_Creek_East",
+        "WAT_Foam_Creek_West",
+        "WAT_Foam_EastBank",
+        "WAT_Foam_Islet_Ring",
+        "WAT_Foam_Level2_Shore",
+        "WAT_Foam_WestBank",
+        "WAT_Waterfall_Midground"
+      ],
+      "tris": 2168,
+      "verts": 1572,
+      "polys": 1508,
+      "materials": [
+        "MAT_Water_Waterfall",
+        "MAT_Water_Foam"
+      ],
+      "skipped_degen_faces": 0,
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target_name": "CRY_Ambient_Clusters",
+      "source_count": 7,
+      "source_names": [
+        "CRY_Bridge1_Runestone_02",
+        "CRY_Goal_Arch_Left",
+        "CRY_Goal_Arch_Right",
+        "CRY_Intro_Guide_01",
+        "CRY_Secret_Hint_01",
+        "CRY_Secret_Hint_02",
+        "CRY_Waterfall_Glow_03"
+      ],
+      "tris": 810,
+      "verts": 495,
+      "polys": 461,
+      "materials": [
+        "MAT_Crystal_AeroBlue",
+        "MAT_Crystal_AeroAqua",
+        "MAT_Stone_RunicPearl",
+        "MAT_Magic_RuneGlow",
+        "MAT_Rock_WarmSlate"
+      ],
+      "skipped_degen_faces": 0,
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target_name": "DEC_Props_Checkpoints_Lilypads",
+      "source_count": 17,
+      "source_names": [
+        "DEC_Fireflies_Z1_Spawn",
+        "DEC_Fireflies_Z3_Waterfall",
+        "DEC_Fireflies_Z4_SecretShrine",
+        "DEC_Fireflies_Z5_GoalPortal",
+        "DEC_Lilypads_Z3_River_01",
+        "DEC_Lilypads_Z3_River_02",
+        "DEC_Lilypads_Z3_River_03",
+        "DEC_Lilypads_Z3_River_04",
+        "DEC_Lilypads_Z3_River_05",
+        "DEC_Lilypads_Z3_River_06",
+        "DEC_Lilypads_Z3_River_07",
+        "DEC_Lilypads_Z5_Creek_01",
+        "DEC_Lilypads_Z5_Creek_02",
+        "DEC_Lilypads_Z5_Creek_03",
+        "DEC_Runestone_Checkpoint_01",
+        "DEC_Runestone_Checkpoint_02",
+        "DEC_Signpost_Spawn"
+      ],
+      "tris": 2468,
+      "verts": 1554,
+      "polys": 1856,
+      "materials": [
+        "MAT_Magic_Firefly",
+        "MAT_Foliage_Lilypad",
+        "MAT_Flower_Pearl",
+        "MAT_Flower_Gold",
+        "MAT_Flower_Coral",
+        "MAT_Stone_RunicPearl",
+        "MAT_Magic_RuneGlow",
+        "MAT_Crystal_AeroAqua",
+        "MAT_Moss_Forest",
+        "MAT_Wood_BridgeHoney",
+        "MAT_Wood_BridgeBeam"
+      ],
+      "skipped_degen_faces": 0,
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target_name": "BG_Hills_And_ForestBelt",
+      "source_count": 32,
+      "source_names": [
+        "BG_Hill_East_04",
+        "BG_Hill_MidEast_03",
+        "BG_Hill_MidWest_02",
+        "BG_Hill_West_01",
+        "TR_BG_Belt_01",
+        "TR_BG_Belt_02",
+        "TR_BG_Belt_03",
+        "TR_BG_Belt_04",
+        "TR_BG_Belt_05",
+        "TR_BG_Belt_06",
+        "TR_BG_Belt_07",
+        "TR_BG_Belt_08",
+        "TR_BG_Belt_09",
+        "TR_BG_Belt_10",
+        "TR_BG_Belt_11",
+        "TR_BG_Belt_12",
+        "TR_BG_Belt_13",
+        "TR_BG_Belt_14",
+        "TR_BG_Belt_15",
+        "TR_BG_Belt_16",
+        "TR_BG_Belt_17",
+        "TR_BG_Belt_18",
+        "TR_BG_Belt_19",
+        "TR_BG_Belt_20",
+        "TR_BG_Belt_21",
+        "TR_BG_Belt_22",
+        "TR_BG_Belt_23",
+        "TR_BG_Belt_24",
+        "TR_BG_Belt_25",
+        "TR_BG_Belt_26",
+        "TR_BG_Belt_27",
+        "TR_BG_Belt_28"
+      ],
+      "tris": 3496,
+      "verts": 1980,
+      "polys": 3056,
+      "materials": [
+        "MAT_BG_Hill_Lush",
+        "MAT_Bark_Warm",
+        "MAT_Foliage_TealForest",
+        "MAT_Foliage_Emerald"
+      ],
+      "skipped_degen_faces": 0,
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target_name": "BG_Mountains_Clouds_Island",
+      "source_count": 12,
+      "source_names": [
+        "BG_Cloud_01",
+        "BG_Cloud_02",
+        "BG_Cloud_03",
+        "BG_Cloud_04",
+        "BG_Distant_Waterfall_Cliff",
+        "BG_Distant_Waterfall_Water",
+        "BG_Floating_Island_Teaser_L4",
+        "BG_Mountain_Peak_01",
+        "BG_Mountain_Peak_02",
+        "BG_Mountain_Peak_03",
+        "BG_Mountain_Peak_04",
+        "BG_Mountain_Peak_05"
+      ],
+      "tris": 2718,
+      "verts": 1515,
+      "polys": 2355,
+      "materials": [
+        "MAT_BG_Cloud_Pearl",
+        "MAT_BG_Mountain_Mist",
+        "MAT_BG_Hill_Lush",
+        "MAT_Rock_CliffShadow",
+        "MAT_Water_Waterfall",
+        "MAT_Water_Foam",
+        "MAT_BG_Mountain_FarPeak",
+        "MAT_Crystal_AeroAqua",
+        "MAT_Foliage_TealForest",
+        "MAT_Bark_Warm"
+      ],
+      "skipped_degen_faces": 0,
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target_name": "BRG_River_Main_01",
+      "source_count": 1,
+      "source_names": [
+        "BRG_River_Main_01"
+      ],
+      "tris": 632,
+      "verts": 396,
+      "polys": 316,
+      "materials": [
+        "MAT_Wood_BridgeHoney",
+        "MAT_Wood_BridgeBeam"
+      ],
+      "skipped_degen_faces": 0,
+      "pivot": [
+        38.5,
+        0.0,
+        0.45
+      ]
+    },
+    {
+      "target_name": "BRG_River_Lagoon_East",
+      "source_count": 1,
+      "source_names": [
+        "BRG_River_Lagoon_East"
+      ],
+      "tris": 644,
+      "verts": 404,
+      "polys": 322,
+      "materials": [
+        "MAT_Wood_BridgeHoney",
+        "MAT_Wood_BridgeBeam"
+      ],
+      "skipped_degen_faces": 0,
+      "pivot": [
+        48.55,
+        0.0,
+        0.5
+      ]
+    },
+    {
+      "target_name": "BRG_Portal_Creek_02",
+      "source_count": 1,
+      "source_names": [
+        "BRG_Portal_Creek_02"
+      ],
+      "tris": 608,
+      "verts": 380,
+      "polys": 304,
+      "materials": [
+        "MAT_Wood_BridgeHoney",
+        "MAT_Wood_BridgeBeam"
+      ],
+      "skipped_degen_faces": 0,
+      "pivot": [
+        81.4,
+        0.0,
+        0.75
+      ]
+    },
+    {
+      "target_name": "CRY_Secret_Shrine_Interactive",
+      "source_count": 1,
+      "source_names": [
+        "CRY_Secret_Shrine_Main"
+      ],
+      "tris": 194,
+      "verts": 113,
+      "polys": 105,
+      "materials": [
+        "MAT_Crystal_AeroBlue",
+        "MAT_Crystal_AeroAqua",
+        "MAT_Stone_RunicPearl",
+        "MAT_Magic_RuneGlow"
+      ],
+      "skipped_degen_faces": 0,
+      "pivot": [
+        63.5,
+        1.85,
+        0.8
+      ]
+    },
+    {
+      "target_name": "DEC_Goal_Runic_Portal",
+      "source_count": 1,
+      "source_names": [
+        "DEC_Goal_Runic_Portal_Arch"
+      ],
+      "tris": 816,
+      "verts": 452,
+      "polys": 452,
+      "materials": [
+        "MAT_Stone_RunicPearl",
+        "MAT_Magic_RuneGlow",
+        "MAT_Crystal_AeroBlue",
+        "MAT_Crystal_AeroAqua",
+        "MAT_Moss_Forest"
+      ],
+      "skipped_degen_faces": 0,
+      "pivot": [
+        88.0,
+        1.85,
+        1.05
+      ]
+    }
+  ],
+  "gameplay_markers": {
+    "level_id": "Level_01_Entrada_al_Bosque",
+    "version": "2.0.0",
+    "coordinate_note": "unity_xyz = [X_blender, Z_blender, Y_blender] (+X right progression, +Y up, +Z depth away from camera)",
+    "PlayerSpawn": {
+      "id": "MKR_PlayerSpawn",
+      "zone_id": "Z1_Claro_de_Entrada",
+      "blender_xyz": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "unity_xyz": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "facing_direction_x": 1,
+      "ground_ref": "TER_Z1_Clearing"
+    },
+    "Checkpoints": [
+      {
+        "id": "MKR_Checkpoint_01",
+        "zone_id": "Z2_Claro_del_Guardian",
+        "blender_xyz": [
+          34.0,
+          0.0,
+          0.54
+        ],
+        "unity_xyz": [
+          34.0,
+          0.54,
+          0.0
+        ],
+        "ground_ref": "TER_Z2_River_Approach",
+        "visual_prop": "DEC_Runestone_Checkpoint_01"
+      },
+      {
+        "id": "MKR_Checkpoint_02",
+        "zone_id": "Z3_Rio_Cristalino",
+        "blender_xyz": [
+          53.3,
+          0.0,
+          0.62
+        ],
+        "unity_xyz": [
+          53.3,
+          0.62,
+          0.0
+        ],
+        "ground_ref": "TER_Z3_East_Bank",
+        "visual_prop": "DEC_Runestone_Checkpoint_02"
+      }
+    ],
+    "CombatZones": [
+      {
+        "id": "MKR_CombatZone_01",
+        "zone_id": "Z2_Claro_del_Guardian",
+        "blender_xyz": [
+          27.5,
+          0.0,
+          0.6
+        ],
+        "unity_xyz": [
+          27.5,
+          0.6,
+          0.0
+        ],
+        "x_bounds": [
+          22.5,
+          32.5
+        ],
+        "y_bounds_blender": [
+          -1.8,
+          1.8
+        ],
+        "z_floor_blender": 0.6,
+        "width_x": 10.0,
+        "enemy_spawns": [
+          "MKR_EnemySpawn_01",
+          "MKR_EnemySpawn_02"
+        ]
+      },
+      {
+        "id": "MKR_CombatZone_02",
+        "zone_id": "Z4_Riscos_y_Santuario_Secreto",
+        "blender_xyz": [
+          74.3,
+          0.0,
+          0.75
+        ],
+        "unity_xyz": [
+          74.3,
+          0.75,
+          0.0
+        ],
+        "x_bounds": [
+          70.2,
+          78.4
+        ],
+        "y_bounds_blender": [
+          -1.8,
+          1.8
+        ],
+        "z_floor_blender": 0.75,
+        "width_x": 8.2,
+        "enemy_spawns": [
+          "MKR_EnemySpawn_03",
+          "MKR_EnemySpawn_04",
+          "MKR_EnemySpawn_05"
+        ]
+      }
+    ],
+    "EnemySpawns": [
+      {
+        "id": "MKR_EnemySpawn_01",
+        "combat_zone": "MKR_CombatZone_01",
+        "blender_xyz": [
+          26.2,
+          0.0,
+          0.6
+        ],
+        "unity_xyz": [
+          26.2,
+          0.6,
+          0.0
+        ],
+        "facing_direction_x": -1,
+        "archetype_hint": "Forest_Melee_Scout",
+        "patrol_x": [
+          24.2,
+          28.2
+        ]
+      },
+      {
+        "id": "MKR_EnemySpawn_02",
+        "combat_zone": "MKR_CombatZone_01",
+        "blender_xyz": [
+          30.8,
+          0.0,
+          0.6
+        ],
+        "unity_xyz": [
+          30.8,
+          0.6,
+          0.0
+        ],
+        "facing_direction_x": -1,
+        "archetype_hint": "Forest_Ranged_Sentinel",
+        "patrol_x": [
+          29.4,
+          32.0
+        ]
+      },
+      {
+        "id": "MKR_EnemySpawn_03",
+        "combat_zone": "MKR_CombatZone_02",
+        "blender_xyz": [
+          72.4,
+          0.0,
+          0.75
+        ],
+        "unity_xyz": [
+          72.4,
+          0.75,
+          0.0
+        ],
+        "facing_direction_x": -1,
+        "archetype_hint": "Forest_Melee_Guardian",
+        "patrol_x": [
+          70.8,
+          73.8
+        ]
+      },
+      {
+        "id": "MKR_EnemySpawn_04",
+        "combat_zone": "MKR_CombatZone_02",
+        "blender_xyz": [
+          75.4,
+          0.0,
+          0.75
+        ],
+        "unity_xyz": [
+          75.4,
+          0.75,
+          0.0
+        ],
+        "facing_direction_x": -1,
+        "archetype_hint": "Forest_Ranged_Archer",
+        "patrol_x": [
+          74.4,
+          76.6
+        ]
+      },
+      {
+        "id": "MKR_EnemySpawn_05",
+        "combat_zone": "MKR_CombatZone_02",
+        "blender_xyz": [
+          77.3,
+          0.0,
+          0.75
+        ],
+        "unity_xyz": [
+          77.3,
+          0.75,
+          0.0
+        ],
+        "facing_direction_x": -1,
+        "archetype_hint": "Forest_Elite_Warden",
+        "patrol_x": [
+          76.2,
+          78.2
+        ]
+      }
+    ],
+    "SecretReward": {
+      "id": "MKR_SecretReward_01",
+      "zone_id": "Z4_Riscos_y_Santuario_Secreto",
+      "blender_xyz": [
+        63.5,
+        0.85,
+        0.8
+      ],
+      "unity_xyz": [
+        63.5,
+        0.8,
+        0.85
+      ],
+      "ground_ref": "TER_Z4_Crystal_Shrine_Alcove",
+      "reward_hint": "Luminous_Aero_Crystal_Shrine_Relic",
+      "linked_interactive_object": "CRY_Secret_Shrine_Interactive"
+    },
+    "LevelGoal": {
+      "id": "MKR_LevelGoal",
+      "zone_id": "Z5_Portico_del_Rio_Cristalino",
+      "blender_xyz": [
+        88.0,
+        0.0,
+        1.05
+      ],
+      "unity_xyz": [
+        88.0,
+        1.05,
+        0.0
+      ],
+      "ground_ref": "TER_Z5_Goal_Sanctuary",
+      "next_level_hint": "Level_02_Rio_Cristalino",
+      "portal_arch_bounds_x": [
+        87.2,
+        88.8
+      ],
+      "linked_interactive_object": "DEC_Goal_Runic_Portal"
+    }
+  },
+  "camera_focus_points": [
+    {
+      "id": "CAM_Focus_Z1_Spawn",
+      "zone_id": "Z1_Claro_de_Entrada",
+      "focus_x": 9.0,
+      "focus_z": 3.15,
+      "camera_blender_xyz": [
+        9.0,
+        -28.0,
+        6.3402
+      ],
+      "camera_unity_xyz": [
+        9.0,
+        6.3402,
+        -28.0
+      ],
+      "ortho_scale_horizontal_m": 18.0,
+      "unity_ortho_size_half_height_m": 5.0625,
+      "downward_tilt_deg": 6.5
+    },
+    {
+      "id": "CAM_Focus_Z1_Overlook",
+      "zone_id": "Z1_Claro_de_Entrada",
+      "focus_x": 15.5,
+      "focus_z": 3.55,
+      "camera_blender_xyz": [
+        15.5,
+        -28.0,
+        6.7402
+      ],
+      "camera_unity_xyz": [
+        15.5,
+        6.7402,
+        -28.0
+      ],
+      "ortho_scale_horizontal_m": 18.0,
+      "unity_ortho_size_half_height_m": 5.0625,
+      "downward_tilt_deg": 6.5
+    },
+    {
+      "id": "CAM_Focus_Z2_Combat1",
+      "zone_id": "Z2_Claro_del_Guardian",
+      "focus_x": 27.5,
+      "focus_z": 3.55,
+      "camera_blender_xyz": [
+        27.5,
+        -28.0,
+        6.7402
+      ],
+      "camera_unity_xyz": [
+        27.5,
+        6.7402,
+        -28.0
+      ],
+      "ortho_scale_horizontal_m": 18.0,
+      "unity_ortho_size_half_height_m": 5.0625,
+      "downward_tilt_deg": 6.5
+    },
+    {
+      "id": "CAM_Focus_Z3_BridgeWaterfall",
+      "zone_id": "Z3_Rio_Cristalino",
+      "focus_x": 40.0,
+      "focus_z": 3.65,
+      "camera_blender_xyz": [
+        40.0,
+        -28.0,
+        6.8402
+      ],
+      "camera_unity_xyz": [
+        40.0,
+        6.8402,
+        -28.0
+      ],
+      "ortho_scale_horizontal_m": 18.0,
+      "unity_ortho_size_half_height_m": 5.0625,
+      "downward_tilt_deg": 6.5
+    },
+    {
+      "id": "CAM_Focus_Z3_LagoonBridge",
+      "zone_id": "Z3_Rio_Cristalino",
+      "focus_x": 48.0,
+      "focus_z": 3.65,
+      "camera_blender_xyz": [
+        48.0,
+        -28.0,
+        6.8402
+      ],
+      "camera_unity_xyz": [
+        48.0,
+        6.8402,
+        -28.0
+      ],
+      "ortho_scale_horizontal_m": 18.0,
+      "unity_ortho_size_half_height_m": 5.0625,
+      "downward_tilt_deg": 6.5
+    },
+    {
+      "id": "CAM_Focus_Z4_CrystalShrine",
+      "zone_id": "Z4_Riscos_y_Santuario_Secreto",
+      "focus_x": 62.5,
+      "focus_z": 3.7,
+      "camera_blender_xyz": [
+        62.5,
+        -28.0,
+        6.8902
+      ],
+      "camera_unity_xyz": [
+        62.5,
+        6.8902,
+        -28.0
+      ],
+      "ortho_scale_horizontal_m": 18.0,
+      "unity_ortho_size_half_height_m": 5.0625,
+      "downward_tilt_deg": 6.5
+    },
+    {
+      "id": "CAM_Focus_Z4_Combat2",
+      "zone_id": "Z4_Riscos_y_Santuario_Secreto",
+      "focus_x": 74.0,
+      "focus_z": 3.7,
+      "camera_blender_xyz": [
+        74.0,
+        -28.0,
+        6.8902
+      ],
+      "camera_unity_xyz": [
+        74.0,
+        6.8902,
+        -28.0
+      ],
+      "ortho_scale_horizontal_m": 18.0,
+      "unity_ortho_size_half_height_m": 5.0625,
+      "downward_tilt_deg": 6.5
+    },
+    {
+      "id": "CAM_Focus_Z5_GoalPortal",
+      "zone_id": "Z5_Portico_del_Rio_Cristalino",
+      "focus_x": 85.5,
+      "focus_z": 3.75,
+      "camera_blender_xyz": [
+        85.5,
+        -28.0,
+        6.9402
+      ],
+      "camera_unity_xyz": [
+        85.5,
+        6.9402,
+        -28.0
+      ],
+      "ortho_scale_horizontal_m": 18.0,
+      "unity_ortho_size_half_height_m": 5.0625,
+      "downward_tilt_deg": 6.5
+    }
+  ],
+  "optional_unity_point_lights": [
+    {
+      "id": "LGT_CRY_Bridge1_Runestone_02",
+      "type": "POINT",
+      "color_hex": "#4CE8FF",
+      "blender_energy_w": 30.0,
+      "unity_urp_intensity_hint": 2.4,
+      "unity_range_m": 6.0,
+      "blender_xyz": [
+        34.4,
+        1.5,
+        1.645
+      ],
+      "unity_xyz": [
+        34.4,
+        1.645,
+        1.5
+      ]
+    },
+    {
+      "id": "LGT_CRY_Goal_Arch_Right",
+      "type": "POINT",
+      "color_hex": "#4CE8FF",
+      "blender_energy_w": 40.0,
+      "unity_urp_intensity_hint": 3.2,
+      "unity_range_m": 6.0,
+      "blender_xyz": [
+        89.2,
+        1.2,
+        2.425
+      ],
+      "unity_xyz": [
+        89.2,
+        2.425,
+        1.2
+      ]
+    },
+    {
+      "id": "LGT_CRY_Secret_Shrine_Main",
+      "type": "POINT",
+      "color_hex": "#4CE8FF",
+      "blender_energy_w": 38.0,
+      "unity_urp_intensity_hint": 3.04,
+      "unity_range_m": 6.0,
+      "blender_xyz": [
+        63.5,
+        1.55,
+        3.047
+      ],
+      "unity_xyz": [
+        63.5,
+        3.047,
+        1.55
+      ]
+    }
+  ],
+  "unity_urp_materials": [
+    {
+      "name": "MAT_BG_Cloud_Pearl",
+      "category": "terrain_and_stone",
+      "hex_srgb": "#F8FDFF",
+      "users_in_final_scene": 1,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.85,
+      "unity_smoothness": 0.15,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": true,
+      "emission_hex": "#F0FAFF",
+      "emission_strength": 0.24,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_BG_Hill_Lush",
+      "category": "terrain_and_stone",
+      "hex_srgb": "#5EB596",
+      "users_in_final_scene": 2,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.86,
+      "unity_smoothness": 0.14,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_BG_Mountain_FarPeak",
+      "category": "terrain_and_stone",
+      "hex_srgb": "#9BD6E8",
+      "users_in_final_scene": 1,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.9,
+      "unity_smoothness": 0.1,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": true,
+      "emission_hex": "#A8E2F2",
+      "emission_strength": 0.08,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_BG_Mountain_Mist",
+      "category": "terrain_and_stone",
+      "hex_srgb": "#6FB8CE",
+      "users_in_final_scene": 1,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.88,
+      "unity_smoothness": 0.12,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Bark_SilverBirch",
+      "category": "wood_and_bark",
+      "hex_srgb": "#D9CFC0",
+      "users_in_final_scene": 1,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.78,
+      "unity_smoothness": 0.22,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Bark_Warm",
+      "category": "wood_and_bark",
+      "hex_srgb": "#9A7252",
+      "users_in_final_scene": 5,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.84,
+      "unity_smoothness": 0.16,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Crystal_AeroAqua",
+      "category": "water_and_magic_aero",
+      "hex_srgb": "#2CE2F5",
+      "users_in_final_scene": 5,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": "SG_FrutigerAero_Crystal",
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.05,
+      "unity_smoothness": 0.95,
+      "alpha": 0.94,
+      "clear_coat": 1.0,
+      "emissive": true,
+      "emission_hex": "#3AF0FF",
+      "emission_strength": 1.05,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Crystal_AeroBlue",
+      "category": "water_and_magic_aero",
+      "hex_srgb": "#1A8CFF",
+      "users_in_final_scene": 3,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": "SG_FrutigerAero_Crystal",
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.05,
+      "unity_smoothness": 0.95,
+      "alpha": 0.94,
+      "clear_coat": 1.0,
+      "emissive": true,
+      "emission_hex": "#1FA8FF",
+      "emission_strength": 1.15,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Dirt_SoilEdge",
+      "category": "terrain_and_stone",
+      "hex_srgb": "#A87B50",
+      "users_in_final_scene": 1,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.9,
+      "unity_smoothness": 0.1,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Dirt_WarmPath",
+      "category": "terrain_and_stone",
+      "hex_srgb": "#DEC090",
+      "users_in_final_scene": 1,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.88,
+      "unity_smoothness": 0.12,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Flower_Coral",
+      "category": "foliage_and_flora",
+      "hex_srgb": "#FF8585",
+      "users_in_final_scene": 3,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.56,
+      "unity_smoothness": 0.44,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": true,
+      "emission_hex": "#FF9898",
+      "emission_strength": 0.06,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Flower_Gold",
+      "category": "foliage_and_flora",
+      "hex_srgb": "#FFD54F",
+      "users_in_final_scene": 3,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.56,
+      "unity_smoothness": 0.44,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": true,
+      "emission_hex": "#FFD54F",
+      "emission_strength": 0.08,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Flower_Pearl",
+      "category": "foliage_and_flora",
+      "hex_srgb": "#F5FCFF",
+      "users_in_final_scene": 5,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.44,
+      "unity_smoothness": 0.56,
+      "alpha": 1.0,
+      "clear_coat": 0.22,
+      "emissive": true,
+      "emission_hex": "#F0FAFF",
+      "emission_strength": 0.1,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Flower_Sky",
+      "category": "foliage_and_flora",
+      "hex_srgb": "#6CCBFF",
+      "users_in_final_scene": 2,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.5,
+      "unity_smoothness": 0.5,
+      "alpha": 1.0,
+      "clear_coat": 0.15,
+      "emissive": true,
+      "emission_hex": "#7AD4FF",
+      "emission_strength": 0.08,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Foliage_Bush",
+      "category": "foliage_and_flora",
+      "hex_srgb": "#57BA66",
+      "users_in_final_scene": 2,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": "SG_Stylized_Foliage_Wind",
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.72,
+      "unity_smoothness": 0.28,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Foliage_Emerald",
+      "category": "foliage_and_flora",
+      "hex_srgb": "#2CA672",
+      "users_in_final_scene": 2,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": "SG_Stylized_Foliage_Wind",
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.7,
+      "unity_smoothness": 0.3,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Foliage_Lilypad",
+      "category": "foliage_and_flora",
+      "hex_srgb": "#54C46E",
+      "users_in_final_scene": 1,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.42,
+      "unity_smoothness": 0.58,
+      "alpha": 1.0,
+      "clear_coat": 0.28,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Foliage_MintLime",
+      "category": "foliage_and_flora",
+      "hex_srgb": "#70D66B",
+      "users_in_final_scene": 1,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": "SG_Stylized_Foliage_Wind",
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.68,
+      "unity_smoothness": 0.32,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Foliage_TealForest",
+      "category": "foliage_and_flora",
+      "hex_srgb": "#269494",
+      "users_in_final_scene": 3,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": "SG_Stylized_Foliage_Wind",
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.72,
+      "unity_smoothness": 0.28,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Grass_Midtone",
+      "category": "terrain_and_stone",
+      "hex_srgb": "#63B852",
+      "users_in_final_scene": 1,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.8,
+      "unity_smoothness": 0.2,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Grass_Shadow",
+      "category": "terrain_and_stone",
+      "hex_srgb": "#468F4A",
+      "users_in_final_scene": 3,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.84,
+      "unity_smoothness": 0.16,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Grass_Sunlit",
+      "category": "terrain_and_stone",
+      "hex_srgb": "#7EC850",
+      "users_in_final_scene": 2,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.78,
+      "unity_smoothness": 0.22,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Magic_Firefly",
+      "category": "water_and_magic_aero",
+      "hex_srgb": "#B8FFF0",
+      "users_in_final_scene": 1,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.1,
+      "unity_smoothness": 0.9,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": true,
+      "emission_hex": "#9EFFEB",
+      "emission_strength": 3.5,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Magic_RuneGlow",
+      "category": "water_and_magic_aero",
+      "hex_srgb": "#42F0FF",
+      "users_in_final_scene": 4,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.15,
+      "unity_smoothness": 0.85,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": true,
+      "emission_hex": "#3BEBFF",
+      "emission_strength": 2.4,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Moss_Forest",
+      "category": "terrain_and_stone",
+      "hex_srgb": "#439962",
+      "users_in_final_scene": 7,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.76,
+      "unity_smoothness": 0.24,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Mushroom_Cap",
+      "category": "foliage_and_flora",
+      "hex_srgb": "#E85A56",
+      "users_in_final_scene": 2,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.48,
+      "unity_smoothness": 0.52,
+      "alpha": 1.0,
+      "clear_coat": 0.18,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Mushroom_Stem",
+      "category": "foliage_and_flora",
+      "hex_srgb": "#F5EBD8",
+      "users_in_final_scene": 2,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.74,
+      "unity_smoothness": 0.26,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Rock_CliffShadow",
+      "category": "terrain_and_stone",
+      "hex_srgb": "#62788C",
+      "users_in_final_scene": 3,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.8,
+      "unity_smoothness": 0.2,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Rock_WarmSlate",
+      "category": "terrain_and_stone",
+      "hex_srgb": "#8698A8",
+      "users_in_final_scene": 3,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.76,
+      "unity_smoothness": 0.24,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Stone_LimestonePath",
+      "category": "terrain_and_stone",
+      "hex_srgb": "#E8E2D0",
+      "users_in_final_scene": 3,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.72,
+      "unity_smoothness": 0.28,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Stone_RunicPearl",
+      "category": "water_and_magic_aero",
+      "hex_srgb": "#E6F4F8",
+      "users_in_final_scene": 5,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.08,
+      "blender_roughness": 0.24,
+      "unity_smoothness": 0.76,
+      "alpha": 1.0,
+      "clear_coat": 0.7,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Water_Foam",
+      "category": "water_and_magic_aero",
+      "hex_srgb": "#EEFDFF",
+      "users_in_final_scene": 3,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.3,
+      "unity_smoothness": 0.7,
+      "alpha": 1.0,
+      "clear_coat": 0.4,
+      "emissive": true,
+      "emission_hex": "#D8FAFF",
+      "emission_strength": 0.28,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Water_RiverCrystal",
+      "category": "water_and_magic_aero",
+      "hex_srgb": "#1BC8DC",
+      "users_in_final_scene": 1,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": "SG_FrutigerAero_Water",
+      "unity_surface_type": "Transparent",
+      "metallic": 0.0,
+      "blender_roughness": 0.05,
+      "unity_smoothness": 0.95,
+      "alpha": 0.82,
+      "clear_coat": 1.0,
+      "emissive": true,
+      "emission_hex": "#12ACC8",
+      "emission_strength": 0.12,
+      "blender_render_method": "BLENDED"
+    },
+    {
+      "name": "MAT_Water_Waterfall",
+      "category": "water_and_magic_aero",
+      "hex_srgb": "#6CE8F5",
+      "users_in_final_scene": 2,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": "SG_FrutigerAero_Water",
+      "unity_surface_type": "Transparent",
+      "metallic": 0.0,
+      "blender_roughness": 0.1,
+      "unity_smoothness": 0.9,
+      "alpha": 0.86,
+      "clear_coat": 0.85,
+      "emissive": true,
+      "emission_hex": "#7CF2FF",
+      "emission_strength": 0.32,
+      "blender_render_method": "BLENDED"
+    },
+    {
+      "name": "MAT_Wood_BridgeBeam",
+      "category": "wood_and_bark",
+      "hex_srgb": "#8B5A32",
+      "users_in_final_scene": 4,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.7,
+      "unity_smoothness": 0.3,
+      "alpha": 1.0,
+      "clear_coat": 0.0,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    },
+    {
+      "name": "MAT_Wood_BridgeHoney",
+      "category": "wood_and_bark",
+      "hex_srgb": "#CC8F4E",
+      "users_in_final_scene": 4,
+      "unity_base_shader": "Universal Render Pipeline/Lit",
+      "unity_shader_graph_upgrade": null,
+      "unity_surface_type": "Opaque",
+      "metallic": 0.0,
+      "blender_roughness": 0.64,
+      "unity_smoothness": 0.36,
+      "alpha": 1.0,
+      "clear_coat": 0.08,
+      "emissive": false,
+      "emission_hex": null,
+      "emission_strength": 0.0,
+      "blender_render_method": "DITHERED"
+    }
+  ],
+  "planned_fbx_modules": [
+    {
+      "relative_path": "01_Terrain/L01_Terrain.fbx",
+      "objects": [
+        "TER_MainGround_Continuous",
+        "TER_Rocks_Pavers_Arch"
+      ],
+      "export_mode": "static_world_origin"
+    },
+    {
+      "relative_path": "02_Platforms_Interactive/BRG_River_Main_01.fbx",
+      "objects": [
+        "BRG_River_Main_01"
+      ],
+      "export_mode": "interactive_local_pivot"
+    },
+    {
+      "relative_path": "02_Platforms_Interactive/BRG_River_Lagoon_East.fbx",
+      "objects": [
+        "BRG_River_Lagoon_East"
+      ],
+      "export_mode": "interactive_local_pivot"
+    },
+    {
+      "relative_path": "02_Platforms_Interactive/BRG_Portal_Creek_02.fbx",
+      "objects": [
+        "BRG_Portal_Creek_02"
+      ],
+      "export_mode": "interactive_local_pivot"
+    },
+    {
+      "relative_path": "02_Platforms_Interactive/COL_Walkable_Continuous.fbx",
+      "objects": [
+        "COL_Walkable_Continuous"
+      ],
+      "export_mode": "collider_world_origin"
+    },
+    {
+      "relative_path": "03_Trees/L01_Trees.fbx",
+      "objects": [
+        "TR_Forest_Trees"
+      ],
+      "export_mode": "static_world_origin"
+    },
+    {
+      "relative_path": "04_Vegetation/L01_Vegetation.fbx",
+      "objects": [
+        "VEG_Foreground_LowFlora",
+        "VEG_Trail_Flowers_Mushrooms"
+      ],
+      "export_mode": "static_world_origin"
+    },
+    {
+      "relative_path": "05_Water/L01_Water.fbx",
+      "objects": [
+        "WAT_Crystal_Rivers_And_Pools",
+        "WAT_Cascades_And_Foam"
+      ],
+      "export_mode": "static_world_origin"
+    },
+    {
+      "relative_path": "06_Decorations/CRY_Secret_Shrine_Interactive.fbx",
+      "objects": [
+        "CRY_Secret_Shrine_Interactive"
+      ],
+      "export_mode": "interactive_local_pivot"
+    },
+    {
+      "relative_path": "06_Decorations/DEC_Goal_Runic_Portal.fbx",
+      "objects": [
+        "DEC_Goal_Runic_Portal"
+      ],
+      "export_mode": "interactive_local_pivot"
+    },
+    {
+      "relative_path": "06_Decorations/L01_Decorations_Static.fbx",
+      "objects": [
+        "CRY_Ambient_Clusters",
+        "DEC_Props_Checkpoints_Lilypads"
+      ],
+      "export_mode": "static_world_origin"
+    },
+    {
+      "relative_path": "07_Background/L01_Background.fbx",
+      "objects": [
+        "BG_Hills_And_ForestBelt",
+        "BG_Mountains_Clouds_Island"
+      ],
+      "export_mode": "static_world_origin"
+    },
+    {
+      "relative_path": "Level_01_Entrada_al_Bosque_Full.fbx",
+      "objects": [
+        "TER_MainGround_Continuous",
+        "TER_Rocks_Pavers_Arch",
+        "BRG_River_Main_01",
+        "BRG_River_Lagoon_East",
+        "BRG_Portal_Creek_02",
+        "COL_Walkable_Continuous",
+        "TR_Forest_Trees",
+        "VEG_Foreground_LowFlora",
+        "VEG_Trail_Flowers_Mushrooms",
+        "WAT_Crystal_Rivers_And_Pools",
+        "WAT_Cascades_And_Foam",
+        "CRY_Secret_Shrine_Interactive",
+        "CRY_Ambient_Clusters",
+        "DEC_Goal_Runic_Portal",
+        "DEC_Props_Checkpoints_Lilypads",
+        "BG_Hills_And_ForestBelt",
+        "BG_Mountains_Clouds_Island"
+      ],
+      "export_mode": "full_level_preview"
+    }
+  ],
+  "fbx_export_dir": "c:\\Users\\Víctor Gustavo\\Downloads\\AI\\World_1\\Level_01\\Export_Unity_FBX",
+  "fbx_exported_files": [
+    {
+      "relative_path": "01_Terrain/L01_Terrain.fbx",
+      "export_mode": "static_world_origin",
+      "objects": [
+        "TER_MainGround_Continuous",
+        "TER_Rocks_Pavers_Arch"
+      ],
+      "size_bytes": 573836
+    },
+    {
+      "relative_path": "02_Platforms_Interactive/BRG_River_Main_01.fbx",
+      "export_mode": "interactive_local_pivot",
+      "objects": [
+        "BRG_River_Main_01"
+      ],
+      "size_bytes": 52492
+    },
+    {
+      "relative_path": "02_Platforms_Interactive/BRG_River_Lagoon_East.fbx",
+      "export_mode": "interactive_local_pivot",
+      "objects": [
+        "BRG_River_Lagoon_East"
+      ],
+      "size_bytes": 53948
+    },
+    {
+      "relative_path": "02_Platforms_Interactive/BRG_Portal_Creek_02.fbx",
+      "export_mode": "interactive_local_pivot",
+      "objects": [
+        "BRG_Portal_Creek_02"
+      ],
+      "size_bytes": 50316
+    },
+    {
+      "relative_path": "02_Platforms_Interactive/COL_Walkable_Continuous.fbx",
+      "export_mode": "collider_world_origin",
+      "objects": [
+        "COL_Walkable_Continuous"
+      ],
+      "size_bytes": 36204
+    },
+    {
+      "relative_path": "03_Trees/L01_Trees.fbx",
+      "export_mode": "static_world_origin",
+      "objects": [
+        "TR_Forest_Trees"
+      ],
+      "size_bytes": 921740
+    },
+    {
+      "relative_path": "04_Vegetation/L01_Vegetation.fbx",
+      "export_mode": "static_world_origin",
+      "objects": [
+        "VEG_Foreground_LowFlora",
+        "VEG_Trail_Flowers_Mushrooms"
+      ],
+      "size_bytes": 689852
+    },
+    {
+      "relative_path": "05_Water/L01_Water.fbx",
+      "export_mode": "static_world_origin",
+      "objects": [
+        "WAT_Crystal_Rivers_And_Pools",
+        "WAT_Cascades_And_Foam"
+      ],
+      "size_bytes": 271996
+    },
+    {
+      "relative_path": "06_Decorations/CRY_Secret_Shrine_Interactive.fbx",
+      "export_mode": "interactive_local_pivot",
+      "objects": [
+        "CRY_Secret_Shrine_Interactive"
+      ],
+      "size_bytes": 35148
+    },
+    {
+      "relative_path": "06_Decorations/DEC_Goal_Runic_Portal.fbx",
+      "export_mode": "interactive_local_pivot",
+      "objects": [
+        "DEC_Goal_Runic_Portal"
+      ],
+      "size_bytes": 73596
+    },
+    {
+      "relative_path": "06_Decorations/L01_Decorations_Static.fbx",
+      "export_mode": "static_world_origin",
+      "objects": [
+        "CRY_Ambient_Clusters",
+        "DEC_Props_Checkpoints_Lilypads"
+      ],
+      "size_bytes": 293068
+    },
+    {
+      "relative_path": "07_Background/L01_Background.fbx",
+      "export_mode": "static_world_origin",
+      "objects": [
+        "BG_Hills_And_ForestBelt",
+        "BG_Mountains_Clouds_Island"
+      ],
+      "size_bytes": 455148
+    },
+    {
+      "relative_path": "Level_01_Entrada_al_Bosque_Full.fbx",
+      "export_mode": "full_level_preview",
+      "objects": [
+        "TER_MainGround_Continuous",
+        "TER_Rocks_Pavers_Arch",
+        "BRG_River_Main_01",
+        "BRG_River_Lagoon_East",
+        "BRG_Portal_Creek_02",
+        "COL_Walkable_Continuous",
+        "TR_Forest_Trees",
+        "VEG_Foreground_LowFlora",
+        "VEG_Trail_Flowers_Mushrooms",
+        "WAT_Crystal_Rivers_And_Pools",
+        "WAT_Cascades_And_Foam",
+        "CRY_Secret_Shrine_Interactive",
+        "CRY_Ambient_Clusters",
+        "DEC_Goal_Runic_Portal",
+        "DEC_Props_Checkpoints_Lilypads",
+        "BG_Hills_And_ForestBelt",
+        "BG_Mountains_Clouds_Island"
+      ],
+      "size_bytes": 3332652
+    }
+  ]
+}
