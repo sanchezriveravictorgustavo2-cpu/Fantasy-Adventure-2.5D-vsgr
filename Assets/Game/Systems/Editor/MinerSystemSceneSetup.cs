@@ -118,10 +118,17 @@ namespace Game.Systems.Editor
                 visualModel.AddComponent<MinerAnimationEventRelay>();
             }
 
+            int allyLayer = LayerMask.NameToLayer("AllyUnits");
+            if (allyLayer >= 0)
+            {
+                root.layer = allyLayer;
+            }
+
             CapsuleCollider col = root.AddComponent<CapsuleCollider>();
             col.center = new Vector3(0f, 0.9f, 0f);
             col.radius = 0.38f;
             col.height = 1.8f;
+            col.isTrigger = true;
 
             MinerAnimatorController animCtrl = root.AddComponent<MinerAnimatorController>();
             animCtrl.SetAnimator(animator);

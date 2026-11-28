@@ -14,17 +14,17 @@ namespace Game.Characters.Miner
         private static readonly List<MinerMovement> ActiveMiners = new List<MinerMovement>();
 
         [Header("Locomotion")]
-        [SerializeField, Min(0.5f)] private float walkSpeed = 1.55f;
+        [SerializeField, Min(0.5f)] private float walkSpeed = 1.9375f;
         [SerializeField, Min(1f)] private float rotationSpeed = 8f;
         [SerializeField, Min(0.05f)] private float arrivalThreshold = 0.2f;
 
         [Header("2.5D Corridor & Avoidance")]
         [SerializeField] private float minWalkableZ = -2.45f;
         [SerializeField] private float maxWalkableZ = 2.25f;
-        [SerializeField] private float statueAvoidRadius = 2.65f;
-        [SerializeField] private float statueHardRadius = 2.38f;
-        [SerializeField] private float minerSeparationRadius = 0.85f;
-        [SerializeField] private float minerSeparationStrength = 1.25f;
+        [SerializeField] private float statueAvoidRadius = 0f;
+        [SerializeField] private float statueHardRadius = 0f;
+        [SerializeField] private float minerSeparationRadius = 0f;
+        [SerializeField] private float minerSeparationStrength = 0f;
 
         private TerrainHeightSampler terrainSampler;
         private Transform statueTransform;
@@ -118,10 +118,9 @@ namespace Game.Characters.Miner
                 return true;
             }
 
-            // If our path crosses Player_Statue's X coordinate, route smoothly through the clear
-            // front corridor (-Z) rather than trying to squeeze behind the statue's +Z edge.
+            // Optional statue routing (disabled when statueAvoidRadius <= 0 so units pass freely through statues).
             Vector3 steeringTarget = destination;
-            if (statueTransform != null)
+            if (statueTransform != null && statueAvoidRadius > 0.01f)
             {
                 Vector3 statuePos = statueTransform.position;
                 bool crossingLeftToDeposit = currentPos.x > statuePos.x - 1.35f && destination.x < statuePos.x - 1.0f;
@@ -147,8 +146,8 @@ namespace Game.Characters.Miner
             toSteer.y = 0f;
             Vector3 moveDir = toSteer.sqrMagnitude > 0.0001f ? toSteer.normalized : (toTarget / remainingDist);
 
-            // Smoothly route around Player_Statue pedestal so miners never clip through it.
-            if (statueTransform != null)
+            // Optional smooth routing around Player_Statue pedestal.
+            if (statueTransform != null && statueAvoidRadius > 0.01f)
             {
                 Vector3 statuePos = statueTransform.position;
                 Vector3 fromStatue = currentPos - statuePos;
@@ -169,30 +168,33 @@ namespace Game.Characters.Miner
                 }
             }
 
-            // Soft separation from other active miners.
-            Vector3 separation = Vector3.zero;
-            for (int i = 0; i < ActiveMiners.Count; i++)
+            // Optional soft separation from other active miners (disabled when strength/radius <= 0 so units pass freely through each other).
+            if (minerSeparationStrength > 0.001f && minerSeparationRadius > 0.001f)
             {
-                MinerMovement other = ActiveMiners[i];
-                if (other == null || other == this)
+                Vector3 separation = Vector3.zero;
+                for (int i = 0; i < ActiveMiners.Count; i++)
                 {
-                    continue;
+                    MinerMovement other = ActiveMiners[i];
+                    if (other == null || other == this)
+                    {
+                        continue;
+                    }
+
+                    Vector3 diff = currentPos - other.transform.position;
+                    diff.y = 0f;
+                    float sqrDist = diff.sqrMagnitude;
+                    float r = minerSeparationRadius;
+                    if (sqrDist > 0.0001f && sqrDist < r * r)
+                    {
+                        float dist = Mathf.Sqrt(sqrDist);
+                        separation += (diff / dist) * ((r - dist) / r);
+                    }
                 }
 
-                Vector3 diff = currentPos - other.transform.position;
-                diff.y = 0f;
-                float sqrDist = diff.sqrMagnitude;
-                float r = minerSeparationRadius;
-                if (sqrDist > 0.0001f && sqrDist < r * r)
+                if (separation.sqrMagnitude > 0.0001f)
                 {
-                    float dist = Mathf.Sqrt(sqrDist);
-                    separation += (diff / dist) * ((r - dist) / r);
+                    moveDir = (moveDir + separation * minerSeparationStrength).normalized;
                 }
-            }
-
-            if (separation.sqrMagnitude > 0.0001f)
-            {
-                moveDir = (moveDir + separation * minerSeparationStrength).normalized;
             }
 
             float step = Mathf.Min(walkSpeed * deltaTime, remainingDist);

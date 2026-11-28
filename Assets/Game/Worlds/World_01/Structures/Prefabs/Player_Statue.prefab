@@ -9,7 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7039153075525725740}
-  m_Layer: 0
+  - component: {fileID: 7039153075525725741}
+  m_Layer: 8
   m_Name: Player_Statue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,3 +107,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a2eead95563d51840b794762c67e1efc, type: 3}
   m_PrefabInstance: {fileID: 2959034436749885875}
   m_PrefabAsset: {fileID: 0}
+
+--- !u!65 &7039153075525725741
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9022591783649525720}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.8, y: 5.2, z: 2.8}
+  m_Center: {x: 0, y: 2.6, z: 0}

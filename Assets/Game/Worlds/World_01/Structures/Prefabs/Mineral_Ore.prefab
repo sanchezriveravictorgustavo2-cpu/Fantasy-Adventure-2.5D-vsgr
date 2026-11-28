@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7330239339239406637}
   - component: {fileID: 5082916030535544852}
   - component: {fileID: 3734998807492392931}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mineral_Ore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,7 +49,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
